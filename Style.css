@@ -1,0 +1,81 @@
+body{
+    background-image: url(./img/filmes.png)
+}
+
+/* Topo */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 100px;
+    max-width: 100px;
+    margin-top: -10px;
+    margin-left: -35px;
+}
+
+#home{
+    color: rgba(254, 1, 115, 0.925);
+}
+
+.icones img{
+    height: 20px; 
+    margin-top: 15px;
+    filter: invert(93%) sepia(93%) saturate(28%) hue-rotate(116deg) brightness(106%) contrast(111%);
+    margin-left: 8px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/* Meio */
+
+.main{
+    margin-top: 150px;
+    margin-left: 100px;
+    color:white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main p{
+    font-size: 20px;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    background-color: rgba(254, 1, 115, 0.925);
+    border-radius: 20px;
+}
+#planos{
+    background-color: rgb(5, 5, 49);
+}
+
+#logotext{
+    color: white;
+    margin-left: -25px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.slider{
+    background-color: blueviolet;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
